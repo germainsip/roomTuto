@@ -7,6 +7,8 @@ import androidx.room.Entity;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+//TODO: ajouter des commentaires parlants
+
 @Database(entities = {Note.class},version = 1)
 public abstract class NoteDatabase extends RoomDatabase {
     private static NoteDatabase instance;
